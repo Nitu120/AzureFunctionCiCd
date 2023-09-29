@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "appInsights1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/microsoft.insights/components/falab4512",
+      "type": "appInsights.azure",
+      "connectionId": "APPINSIGHTS_INSTRUMENTATIONKEY"
+    },
+    "storage1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/safunc3412",
+      "type": "storage.azure",
+      "connectionId": "AzureWebJobsStorage"
+    },
+    "storage2": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/falab4512/providers/Microsoft.ServiceLinker/linkers/UploadInputStorageConnectionString_21F50D0034, /subscriptions/3e87828a-58fb-40ad-9def-e788e655b33a/resourceGroups/labs-functions-blob/providers/Microsoft.Web/sites/falab4512/providers/Microsoft.ServiceLinker/linkers/UploadInputStorageConnectionString_A619DA331C",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/safunc3412",
+      "type": "storage.azure",
+      "connectionId": "UploadInputStorageConnectionString",
+      "dynamicId": null
+    }
+  }
+}

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionAppDemo", "FunctionAppDemo\FunctionAppDemo.csproj", "{37FC3E4B-71DE-44CF-9E76-EB429E39E27C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TmerToBlobLab", "TmerToBlobLab\TmerToBlobLab.csproj", "{2BCF767E-579E-4E6F-97C5-2755077633E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlobToSQLLab", "BlobToSQLLab\BlobToSQLLab.csproj", "{D26221A7-C6DC-46C0-8389-4AAFC4664C44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBusTopicToTableAndQueue", "ServiceBusTopicToTableAndQueue\ServiceBusTopicToTableAndQueue.csproj", "{F8CD89C8-F878-4C44-9C3E-5120ED1558E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMqToBlob", "RabbitMqToBlob\RabbitMqToBlob.csproj", "{1B653C3C-46BF-41F2-A731-B66F6202BD30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctionCiCd", "AzureFunctionCiCd\AzureFunctionCiCd.csproj", "{287C9C07-8120-462C-B24B-A49CFFD756B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37FC3E4B-71DE-44CF-9E76-EB429E39E27C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37FC3E4B-71DE-44CF-9E76-EB429E39E27C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37FC3E4B-71DE-44CF-9E76-EB429E39E27C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37FC3E4B-71DE-44CF-9E76-EB429E39E27C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BCF767E-579E-4E6F-97C5-2755077633E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BCF767E-579E-4E6F-97C5-2755077633E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BCF767E-579E-4E6F-97C5-2755077633E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BCF767E-579E-4E6F-97C5-2755077633E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D26221A7-C6DC-46C0-8389-4AAFC4664C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D26221A7-C6DC-46C0-8389-4AAFC4664C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D26221A7-C6DC-46C0-8389-4AAFC4664C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D26221A7-C6DC-46C0-8389-4AAFC4664C44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8CD89C8-F878-4C44-9C3E-5120ED1558E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8CD89C8-F878-4C44-9C3E-5120ED1558E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8CD89C8-F878-4C44-9C3E-5120ED1558E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8CD89C8-F878-4C44-9C3E-5120ED1558E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B653C3C-46BF-41F2-A731-B66F6202BD30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B653C3C-46BF-41F2-A731-B66F6202BD30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B653C3C-46BF-41F2-A731-B66F6202BD30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B653C3C-46BF-41F2-A731-B66F6202BD30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{287C9C07-8120-462C-B24B-A49CFFD756B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{287C9C07-8120-462C-B24B-A49CFFD756B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{287C9C07-8120-462C-B24B-A49CFFD756B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{287C9C07-8120-462C-B24B-A49CFFD756B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CFCA141-E220-4D6E-970F-9A675774FA6A}
+	EndGlobalSection
+EndGlobal
